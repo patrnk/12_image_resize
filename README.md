@@ -8,7 +8,7 @@ For example, an image 1200x900 after the command
 
 ```python image_resize.py  path/to/image.jpg --scale 2```
 
-will save the bigger counterpart of the size 24000x1800 in `path/to/image__2400x1800.jpg` file.
+will save the bigger counterpart of the size 2400x1800 in `path/to/image__2400x1800.jpg` file.
 
 You can specify only the width or only the height of the resulting image. Given one, the other will be computed based on the proportions of the source image.
 
