@@ -36,7 +36,7 @@ def get_resized_image_name(source_image_name, resulting_size):
     name, extension = os.path.splitext(source_image_name)
     width, height = resulting_size
     size_suffix = '__{0}x{1}'.format(width, height)
-    return '{0}{1}.{2}'.format(name, size_suffix, extension)
+    return '{0}{1}{2}'.format(name, size_suffix, extension)
 
 
 def parse_args(argv):
